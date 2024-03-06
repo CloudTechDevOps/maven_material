@@ -1,0 +1,27 @@
+*** What Is a Maven Artifact? ***
+
+- An artifact is an element that a project can either use or produce. In Maven terminology, an artifact is an output generated after a Maven project build. 
+- It can be, for example, a jar, war, or any other executable file.
+- Also, Maven artifacts include five key elements, groupId, artifactId, version, packaging, and classifier. 
+
+*** There are two types
+
+    1. Release Artifact
+       - A release artifact indicates that the version is stable and can be used outside development processes like integration tests, 
+         customer qualification, pre-production.
+       - Release artifact is unique and thats for end users.
+       - Resease version build from main branch.
+       
+    2. Snapshot Artifact
+       - A snapshot artifact indicates that the project is under development. When we install or publish a component, Maven checks the version attribute. 
+         If it contains the string “SNAPSHOT”, Maven converts this key into a date and time value in UTC (Coordinated Universal Time) format.
+ 
+ ** The artifact produced by maven have form <artifactId>-<version><extension>.
+     
+     Example:
+     
+      Release Artifact:  Webapp-2.21.jar
+      
+      Snapshot Artifact: Webapp-2.21-SNAPSHOT.jar After build, 
+                         Webapp-2.21-SNAPSHOT-20221214.060915.jar
+      

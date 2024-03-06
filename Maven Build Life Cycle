@@ -1,0 +1,13 @@
+## Build Life Cycle
+
+- A build life cycle is a well defined sequence of phases which define the order in which the goals are to be executed. 
+
+** Different Phases**
+  
+    1. Prepare resources         - Resource copying
+    2. Validate (mvn validate)   - Validates that the project is correct and all necessary information is available. This also makes sure the dependencies are downloaded.
+    3. Compilation (mvn compile) - Compiles the source code of the project
+    4. Test (mvn test)           - Runs the tests against the compiled source code using a suitable unit testing framework.
+    5. Package (mvn package)     - Packs the compiled code in its distributable format, such as a JAR.
+    6. Install (mvn install)     - Install the package into the local repository, for use as a dependency in other projects locally.
+    7. Deploy (mvn deploy)       - Copies the final package to the remote repository for sharing with other developers and projects.

@@ -1,0 +1,41 @@
+*** What is Maven? ***
+
+ Maven is a popular open-source build tool developed by the Apache Group to build, publish, and deploy several projects at once for better project management. 
+The tool provides allows developers to build and document the lifecycle framework.
+
+** Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
+
+
+*** What Maven does? ***
+
+Maven simplifies the above mentioned problems. It does mainly following tasks.
+
+- It makes a project easy to build
+- It provides uniform build process (maven project can be shared by all the maven projects)
+- It provides project information (log document, cross referenced sources, mailing list, dependency list, unit test reports etc.)
+- It is easy to migrate for new features of Maven
+
+*** Apache Maven helps to manage
+
+- Builds
+- Documentation
+- Reporing
+- SCMs
+- Releases
+- Distribution
+
+
+*** What is Build Tool
+A build tool takes care of everything for building a process. It does following:
+
+- Generates source code (if auto-generated code is used)
+- Generates documentation from source code
+- Compiles source code
+- Packages compiled code into JAR of ZIP file
+- Installs the packaged code in local repository, server repository, or central repository
+
+
+
+
+
+

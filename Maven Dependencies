@@ -1,0 +1,18 @@
+*** Maven Dependencies ***
+
+* There are two types
+  1. Direct Dependency
+      - These are dependency defined in your pom.xml file under the <dependency/> section.
+      - Direct dependencies are the ones that we explicitly include in the project.
+      
+      Ex. 
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>4.12</version>
+      </dependency>
+      
+   2. Transitive Dependency
+       - Transitive dependencies are required by direct dependencies. Maven automatically includes required transitive dependencies in our project.
+       
+ *** Maven supports both dependecnies.

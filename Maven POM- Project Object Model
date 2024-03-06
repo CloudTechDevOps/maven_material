@@ -1,0 +1,43 @@
+** Maven is powerfull project management tool that is based on POM ( Project Object Model ).
+** It is used for project build, dependency and documentation.
+
+POM - Project Object Model.
+
+- It is fundamental unit of work in maven.
+- It is an XML file that resides in the base directory of the project as pom.xml.
+- The pom.xml file contains information of project and configuration information for the maven to build the project such as dependencies, build directory, 
+  source directory, test source directory, plugin, goals etc.
+- Maven reads the pom.xml file, then executes the goal
+
+
+** Configuration in POM
+
+1. Project Dependency.
+2. Pugins.
+3. Goals.
+4. Build profiles.
+5. Project Versions.
+6. Developers.
+7. Mailing list
+
+
+
+POM Elements
+1. Project.
+2. groupId.
+3. artifactId.
+4. Version
+
+Ex. pom.xml
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"   
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
+http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>com.javatpoint.application1</groupId>  
+  <artifactId>my-app</artifactId>  
+  <version>1</version>  
+  
+</project> 

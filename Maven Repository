@@ -1,0 +1,15 @@
+*** Maven Repository ***
+
+A maven repository is a directory of packaged JAR file with pom.xml file. Maven searches for dependencies in the repositories.
+
+*** There are 3 types of maven repository:
+
+1. Local Repository   - Maven local repository is located in your local system. It is created by the maven when you run any maven command.
+2. Central Repository - Maven central repository is located on the web. It has been created by the apache maven community itself. https://repo1.maven.org/maven2/
+3. Remote Repository  - Maven remote repository is located on the web. Most of libraries can be missing from the central repository such as JBoss library etc, 
+                        so we need to define remote repository in pom.xml file.
+
+Maven searches for the dependencies in the following order:
+
+        Local repository then Central repository then Remote repository
+        

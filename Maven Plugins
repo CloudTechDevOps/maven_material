@@ -1,0 +1,17 @@
+*** Maven Plugins ***
+
+- Maven is actually plugin execution framework where every task is acutally done by plugin.
+
+** Maven plugins are generallu used to
+    1. Create JAR/WAR/EAR file.
+    2. Compile code files.
+    3. Unit testing of codes.
+    4. Create Project Documentaion.
+    5. Create Project report
+    
+** Two types of pulgins
+    1. Build Plugin
+        - They execute during the build process and should be configured in the <build> elements of pom.xml.
+    
+    2. Reporting plugin
+        - They execute during the site generation process and they should be configured in the <reporting/> element of the pom.xml.
